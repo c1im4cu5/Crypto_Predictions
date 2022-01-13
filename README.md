@@ -20,7 +20,7 @@ API is designed to receive a single input for cryptocurrency trading pair from C
 ### Using Postman:
 GET and POST can be found @ /prediction
 
-form-data
+form-data<br>
 Form Field = pair
 
 # End Result
