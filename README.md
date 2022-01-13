@@ -29,7 +29,7 @@ Queries will be placed for a "day" interval. Predictions will be closing values.
 Algorithm will need to load tensorflow; which will take some time. Furthermore, user will need to wait for epochs to run. Total run time could exceed ten minutes. <p>
 
 # Issues <br>
-API is designed to be run from a server to supply output and eventually link with RapidAPI. GCP cannot currently handle tensorflow. Heroku will require a rework of requirements.txt (and may still not work). AWS could probably run the API. For now, if downloaded, user would need to run it from localserver.<p>
+API is designed to be run from a server to supply output and eventually link with RapidAPI. GCP and Heroku will require a rework of requirements.txt (and may still not work). For now, if downloaded, user would need to run it from localserver.<p>
  
 # Contributing <br>
 Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to added/altered.
