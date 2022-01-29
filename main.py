@@ -185,8 +185,8 @@ def predict(records):
     next_val = model.predict(np.reshape(last_val_scaled, (1,1,1)))
     #model.save('path/to/location')
 
-    result = next_day[0]
-    return result
+    next_day = last_val.item() * next_val
+    return next_day
 
 def combine_predictions(ticker):
     ticker = ticker
