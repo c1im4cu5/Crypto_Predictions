@@ -107,6 +107,7 @@ def new_dataset(dataset, step_size):
     return np.array(data_X), np.array(data_Y)
 
 def predict(records):
+    next_day = 0
     # FOR REPRODUCIBILITY
     np.random.seed(7)
 
