@@ -107,7 +107,6 @@ def new_dataset(dataset, step_size):
     return np.array(data_X), np.array(data_Y)
 
 def predict(records):
-    next_day = 0
     # FOR REPRODUCIBILITY
     np.random.seed(7)
 
@@ -186,8 +185,8 @@ def predict(records):
     next_val = model.predict(np.reshape(last_val_scaled, (1,1,1)))
     #model.save('path/to/location')
 
-    next_day = next_day[0]
-    return next_day
+    result = next_day[0]
+    return result
 
 def combine_predictions(ticker):
     ticker = ticker
