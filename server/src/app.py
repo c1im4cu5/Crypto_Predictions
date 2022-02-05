@@ -14,6 +14,7 @@ import requests
 from datetime import datetime, timedelta
 import itertools
 import time
+import os
 
 df_dataset = pd.DataFrame()
 # Set some standard parameters upfront
@@ -204,4 +205,4 @@ def combine_predictions(ticker):
     return result
 
 if __name__ == '__main__':
-    app.run(threaded=True)
+    app.run(debug=True,host='0.0.0.0',port=int(os.environ.get('PORT', 8080)))
