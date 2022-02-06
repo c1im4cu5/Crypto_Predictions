@@ -1,0 +1,23 @@
+{
+  "name": "crypto_predictions",
+  "version": "1.0.0",
+  "description": "- Download github repository\r  - https://github.com/c1im4cu5/Crypto_Predictions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c1im4cu5/Crypto_Predictions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c1im4cu5/Crypto_Predictions/issues"
+  },
+  "homepage": "https://github.com/c1im4cu5/Crypto_Predictions#readme",
+  "devDependencies": {
+    "firebase-tools": "^10.1.4"
+  }
+}
