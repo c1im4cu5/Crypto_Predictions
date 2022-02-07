@@ -29,7 +29,7 @@ Queries will be placed for a "day" interval. Predictions will be closing values.
 Algorithm will need to load tensorflow; which will take some time. Furthermore, user will need to wait for epochs to run. Total run time could exceed ten minutes. <p>
 
 # Example API <br>
-API is currently run via a gcloud container and hosted via Firebase. [ML Crypto Price Prediction](https://rapidapi.com/thebrotherscain@gmail.com/api/machine-learning-crypto-price-predictions)<p>
+API is currently run via a gcloud container and hosted via Firebase. [ML Crypto Price Prediction](https://d139-47zlezkatq-uc.a.run.app/prediction). You can use Postman to perform your query.<p>
  
 # Contributing <br>
 Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to added/altered.
